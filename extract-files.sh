@@ -15,6 +15,9 @@ function blob_fixup() {
             xxd -r -p "${2}".hex > "${2}"
             rm "${2}".hex
             ;;
+	    vendor/lib64/hw/camera.qcom.so)
+	        sed -i 's/ro.boot.verifiedbootstate/ro.camera.bootstate/g' "${2}"
+	        ;;
     esac
 }
 
