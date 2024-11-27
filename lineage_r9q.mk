@@ -44,5 +44,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Vendor fingerprint
-BUILD_FINGERPRINT := "samsung/r9qxxx/r9q:11/RP1A.200720.012/G990BXXS9GXI1:user/release-keys"
-PRIVATE_BUILD_DESC := "r9qxxx-user 11 RP1A.200720.012 G990BXXS9GXI1 release-keys"
+BUILD_FINGERPRINT := "samsung/r9qxxx/r9q:11/RP1A.200720.012/G990BXXSBGXJ3:user/release-keys"
+PRIVATE_BUILD_DESC := "r9qxxx-user 11 RP1A.200720.012 G990BXXSBGXJ3 release-keys"
